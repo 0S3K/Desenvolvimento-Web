@@ -80,19 +80,19 @@ footer {
     margin-bottom: 20px;
 }
 
-.form-group {
+.form-grupo {
     margin-bottom: 15px;
     text-align: left;
 }
 
-.form-group label {
+.form-grupo label {
     display: block;
     margin-bottom: 5px;
     font-weight: bold;
 }
 
-.form-group input,
-.form-group textarea {
+.form-grupo input,
+.form-grupo textarea {
     width: 100%;
     padding: 10px;
     border-radius: 5px;
