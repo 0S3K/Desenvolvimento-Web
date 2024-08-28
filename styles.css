@@ -1,0 +1,134 @@
+body {
+    background-color: #1b1b1b;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    background-color: #800000;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+.resenha {
+    padding: 20px;
+}
+
+.resenha img {
+    width: 80%;
+    max-width: 600px;
+    margin: 20px 0;
+    border: 5px solid #800000;
+    animation: flutuar 4s ease-in-out infinite;
+}
+
+.resenha p {
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+
+.botoes {
+    margin: 20px 0;
+}
+
+.botao {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #c0392b;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.botao:hover {
+    background-color: #e74c3c;
+}
+
+.botao i {
+    margin-right: 8px;
+}
+
+footer {
+    background-color: #111;
+    padding: 10px 0;
+    color: #999;
+}
+
+.avaliacao {
+    padding: 20px;
+    background-color: #222;
+    margin: 20px 0;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.avaliacao h2 {
+    color: #c0392b;
+    margin-bottom: 20px;
+}
+
+.form-grupo {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.form-grupo label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-grupo input,
+.form-grupo textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 1em;
+}
+
+button.botao {
+    margin-top: 15px;
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+
+@keyframes flutuar {
+    0% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+.avalicao_flutuante {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #ff4c4c;
+    font-weight: bold;
+    font-size: 24px;
+    padding: 10px;
+    background-color: #333;
+    border-radius: 5px;
+    animation: flutuar 3s infinite ease-in-out;
+}
